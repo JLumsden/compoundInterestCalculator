@@ -32,7 +32,7 @@ def interestCalculator(startPrice, rate, time, compound):
     print("Accrued Interest: $%0.2f" % interestAccrued)
 #Startup
 while True:
-    decision = input("This is an interest calculator.\nWould you like to calculate some interest?\ny/n: ")
+    decision = input("Would you like to calculate some interest?\ny/n: ")
     if decision == 'y':
         userInput()
         break
